@@ -1,5 +1,200 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8724254923309842191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Probe Get Dialogue
+  m_EditorClassIdentifier: 
+  Path: event:/Probe Get Dialogue
+  Guid:
+    Data1: 1492789935
+    Data2: 1317158763
+    Data3: 1490624904
+    Data4: 2054076788
+  Banks:
+  - {fileID: 27231602060753349}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2200
+--- !u!114 &-6363579308789834489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Menu MouseOver
+  m_EditorClassIdentifier: 
+  Path: event:/Menu MouseOver
+  Guid:
+    Data1: -1499310320
+    Data2: 1131692418
+    Data3: -151594102
+    Data4: 358762726
+  Banks:
+  - {fileID: -2595256384144542114}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 349
+--- !u!114 &-4774443731294069800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Can't Open Dialogue
+  m_EditorClassIdentifier: 
+  Path: event:/Can't Open Dialogue
+  Guid:
+    Data1: 526932563
+    Data2: 1165377622
+    Data3: 444412585
+    Data4: -1714642030
+  Banks:
+  - {fileID: 27231602060753349}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2240
+--- !u!114 &-3339695195508805354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Probe Negative
+  m_EditorClassIdentifier: 
+  Path: event:/Probe Negative
+  Guid:
+    Data1: 2063877580
+    Data2: 1322547345
+    Data3: -1987562598
+    Data4: 253095151
+  Banks:
+  - {fileID: -608867344077892468}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1384
+--- !u!114 &-2595256384144542114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/MenuUI.bank
+  m_EditorClassIdentifier: 
+  Path: Sound Final Assignment/Build/Desktop/MenuUI.bank
+  Name: MenuUI
+  StudioPath: bank:/MenuUI
+  lastModified: 638797061281077892
+  FileSizes:
+  - Name: Desktop
+    Value: 9280
+  Exists: 1
+--- !u!114 &-2291352972896450104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Password Confirm
+  m_EditorClassIdentifier: 
+  Path: event:/Password Confirm
+  Guid:
+    Data1: 1894419920
+    Data2: 1086087496
+    Data3: 653261216
+    Data4: 1383352301
+  Banks:
+  - {fileID: -608867344077892468}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1828
+--- !u!114 &-608867344077892468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SFX.bank
+  m_EditorClassIdentifier: 
+  Path: Sound Final Assignment/Build/Desktop/SFX.bank
+  Name: SFX
+  StudioPath: bank:/SFX
+  lastModified: 638797061282544689
+  FileSizes:
+  - Name: Desktop
+    Value: 138848
+  Exists: 1
+--- !u!114 &-305113094675574347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambience.bank
+  m_EditorClassIdentifier: 
+  Path: Sound Final Assignment/Build/Desktop/Ambience.bank
+  Name: Ambience
+  StudioPath: bank:/Ambience
+  lastModified: 638797061280743835
+  FileSizes:
+  - Name: Desktop
+    Value: 504000
+  Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12,10 +207,409 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
-  EditorBanks: []
-  EditorEvents: []
+  EditorBanks:
+  - {fileID: 7828043585042293703}
+  - {fileID: -305113094675574347}
+  - {fileID: 27231602060753349}
+  - {fileID: 4074877067685980125}
+  - {fileID: -2595256384144542114}
+  - {fileID: 7642460523775751411}
+  - {fileID: -608867344077892468}
+  EditorEvents:
+  - {fileID: 8518825900791493676}
+  - {fileID: 1398779502123388748}
+  - {fileID: -4774443731294069800}
+  - {fileID: -8724254923309842191}
+  - {fileID: 595511670709190742}
+  - {fileID: -6363579308789834489}
+  - {fileID: 6597480170373024220}
+  - {fileID: 7525656035199552295}
+  - {fileID: 4979644095818597315}
+  - {fileID: 1377420713963404997}
+  - {fileID: 1983333577733880192}
+  - {fileID: 6081119351922549481}
+  - {fileID: -3339695195508805354}
+  - {fileID: 3517622168163702258}
+  - {fileID: -2291352972896450104}
   EditorParameters: []
-  MasterBanks: []
-  StringsBanks: []
-  cacheTime: 0
+  MasterBanks:
+  - {fileID: 4074877067685980125}
+  StringsBanks:
+  - {fileID: 7828043585042293703}
+  cacheTime: 638797061282544689
   cacheVersion: 131618
+--- !u!114 &27231602060753349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Dialogue.bank
+  m_EditorClassIdentifier: 
+  Path: Sound Final Assignment/Build/Desktop/Dialogue.bank
+  Name: Dialogue
+  StudioPath: bank:/Dialogue
+  lastModified: 638797061281626259
+  FileSizes:
+  - Name: Desktop
+    Value: 85760
+  Exists: 1
+--- !u!114 &595511670709190742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Saw Get Dialogue
+  m_EditorClassIdentifier: 
+  Path: event:/Saw Get Dialogue
+  Guid:
+    Data1: 937771719
+    Data2: 1189874163
+    Data3: 986326411
+    Data4: -782704558
+  Banks:
+  - {fileID: 27231602060753349}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1100
+--- !u!114 &1377420713963404997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Saw Whirr
+  m_EditorClassIdentifier: 
+  Path: event:/Saw Whirr
+  Guid:
+    Data1: -1733138887
+    Data2: 1317776626
+    Data3: 157783959
+    Data4: -71005024
+  Banks:
+  - {fileID: -608867344077892468}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4000
+--- !u!114 &1398779502123388748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Torch Get Dialogue
+  m_EditorClassIdentifier: 
+  Path: event:/Torch Get Dialogue
+  Guid:
+    Data1: 1528755280
+    Data2: 1115238174
+    Data3: -43473225
+    Data4: -1087028906
+  Banks:
+  - {fileID: 27231602060753349}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1650
+--- !u!114 &1983333577733880192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Probe Positive
+  m_EditorClassIdentifier: 
+  Path: event:/Probe Positive
+  Guid:
+    Data1: 540254521
+    Data2: 1223158244
+    Data3: 1956787358
+    Data4: -1742246733
+  Banks:
+  - {fileID: -608867344077892468}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1410
+--- !u!114 &3517622168163702258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Button Click
+  m_EditorClassIdentifier: 
+  Path: event:/Button Click
+  Guid:
+    Data1: 1181528015
+    Data2: 1277011487
+    Data3: -1600916557
+    Data4: -1018509049
+  Banks:
+  - {fileID: -608867344077892468}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
+--- !u!114 &4074877067685980125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Sound Final Assignment/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638797061235128916
+  FileSizes:
+  - Name: Desktop
+    Value: 1036
+  Exists: 1
+--- !u!114 &4979644095818597315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Door Hiss
+  m_EditorClassIdentifier: 
+  Path: event:/Door Hiss
+  Guid:
+    Data1: -1195392458
+    Data2: 1236749784
+    Data3: -1641380171
+    Data4: -973620928
+  Banks:
+  - {fileID: -608867344077892468}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2046
+--- !u!114 &6081119351922549481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weld Zap
+  m_EditorClassIdentifier: 
+  Path: event:/Weld Zap
+  Guid:
+    Data1: -1684919940
+    Data2: 1151928459
+    Data3: -1362915962
+    Data4: 1370741794
+  Banks:
+  - {fileID: -608867344077892468}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
+--- !u!114 &6466980170992020339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Song/Puzzles Completed
+  m_EditorClassIdentifier: 
+  Name: Puzzles Completed
+  StudioPath: 
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 800492195
+    data2: 1256052758
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &6597480170373024220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Menu Click
+  m_EditorClassIdentifier: 
+  Path: event:/Menu Click
+  Guid:
+    Data1: 604004001
+    Data2: 1114295808
+    Data3: 852138410
+    Data4: 1200366747
+  Banks:
+  - {fileID: -2595256384144542114}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 412
+--- !u!114 &7525656035199552295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Song
+  m_EditorClassIdentifier: 
+  Path: event:/Song
+  Guid:
+    Data1: -1374793653
+    Data2: 1149659181
+    Data3: 313961653
+    Data4: 426779754
+  Banks:
+  - {fileID: 7642460523775751411}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 6466980170992020339}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 234300
+--- !u!114 &7642460523775751411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: Sound Final Assignment/Build/Desktop/Music.bank
+  Name: Music
+  StudioPath: bank:/Music
+  lastModified: 638797061274728389
+  FileSizes:
+  - Name: Desktop
+    Value: 14202848
+  Exists: 1
+--- !u!114 &7828043585042293703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Sound Final Assignment/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638797061235148864
+  FileSizes:
+  - Name: Desktop
+    Value: 1696
+  Exists: 1
+--- !u!114 &8518825900791493676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Outdoors Ambience
+  m_EditorClassIdentifier: 
+  Path: event:/Outdoors Ambience
+  Guid:
+    Data1: -1947679547
+    Data2: 1328525842
+    Data3: -1006584691
+    Data4: 40138895
+  Banks:
+  - {fileID: -305113094675574347}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 39500

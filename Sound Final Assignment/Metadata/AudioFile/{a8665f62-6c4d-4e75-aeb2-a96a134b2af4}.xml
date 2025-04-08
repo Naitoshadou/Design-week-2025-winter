@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{a8665f62-6c4d-4e75-aeb2-a96a134b2af4}">
+		<property name="assetPath">
+			<value>outdoor ambience.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>39.5</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{7c726035-5672-4201-9178-872899f50864}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{dcf64038-d5e0-41e4-bee3-758031c314ab}">
+		<property name="assetPath">
+			<value>electric probe.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>22.0499992</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>2.8528798185941042</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{7c726035-5672-4201-9178-872899f50864}</destination>
+		</relationship>
+	</object>
+</objects>

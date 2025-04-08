@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{da1f9a8a-1526-4394-b535-0838848245f5}">
+		<property name="assetPath">
+			<value>Negative Probe.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.3844897959183673</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{7c726035-5672-4201-9178-872899f50864}</destination>
+		</relationship>
+	</object>
+</objects>
