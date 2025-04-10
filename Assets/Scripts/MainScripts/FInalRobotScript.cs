@@ -41,6 +41,7 @@ public class FInalRobotScript : MonoBehaviour
             }
             else
             {
+                FMODUnity.RuntimeManager.PlayOneShot("event:/Can't Open Dialogue");
                 //Debug.Log("I can't Seem to open it yet...");
                 SubtitleManager.instance.DoDialogue("I can't seem to open it yet...");
             }
@@ -56,6 +57,7 @@ public class FInalRobotScript : MonoBehaviour
 
     void UnlockDoor()
     {
+        FMODUnity.RuntimeManager.PlayOneShot("event:/Door Hiss");
         AdditiveSceneManager.Instance.LoadScene(sceneToLoad, PView.gameObject);
         //IsComplete = true;
         spriteRenderer.sprite = UnlockedSprite;

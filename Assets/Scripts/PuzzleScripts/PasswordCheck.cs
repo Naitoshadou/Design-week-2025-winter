@@ -50,6 +50,7 @@ public class PasswordCheck : MonoBehaviour
 
     private void OnPasswordSolved()
     {
+        FMODUnity.RuntimeManager.PlayOneShot("event:/Password Confirm");
         passwordUI.SetActive(false);
         dotPuzzle.SetActive(true);
         ChestMove();

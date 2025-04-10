@@ -108,12 +108,15 @@ public class AdditiveSceneManager : MonoBehaviour
                         switch (unlockedToolID)
                         {
                             case 1:
+                                FMODUnity.RuntimeManager.PlayOneShot("event:/Saw Get Dialogue");
                                 SubtitleManager.instance.DoDialogue("I got the saw tool!");
                                 break;
                             case 2:
+                                FMODUnity.RuntimeManager.PlayOneShot("event:/Torch Get Dialogue");
                                 SubtitleManager.instance.DoDialogue("I got the welding torch!");
                                 break;
                             case 3:
+                                FMODUnity.RuntimeManager.PlayOneShot("event:/Probe Get Dialogue");
                                 SubtitleManager.instance.DoDialogue("I got the electrical probe!");
                                 break;
 

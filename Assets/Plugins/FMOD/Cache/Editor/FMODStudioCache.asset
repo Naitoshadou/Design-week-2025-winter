@@ -123,7 +123,7 @@ MonoBehaviour:
   Path: Sound Final Assignment/Build/Desktop/MenuUI.bank
   Name: MenuUI
   StudioPath: bank:/MenuUI
-  lastModified: 638797061281077892
+  lastModified: 638798816506039752
   FileSizes:
   - Name: Desktop
     Value: 9280
@@ -154,7 +154,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 1828
+  Length: 620
 --- !u!114 &-608867344077892468
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -170,10 +170,10 @@ MonoBehaviour:
   Path: Sound Final Assignment/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638797061282544689
+  lastModified: 638798852748675741
   FileSizes:
   - Name: Desktop
-    Value: 138848
+    Value: 137568
   Exists: 1
 --- !u!114 &-305113094675574347
 MonoBehaviour:
@@ -190,7 +190,7 @@ MonoBehaviour:
   Path: Sound Final Assignment/Build/Desktop/Ambience.bank
   Name: Ambience
   StudioPath: bank:/Ambience
-  lastModified: 638797061280743835
+  lastModified: 638798816505120616
   FileSizes:
   - Name: Desktop
     Value: 504000
@@ -231,12 +231,13 @@ MonoBehaviour:
   - {fileID: -3339695195508805354}
   - {fileID: 3517622168163702258}
   - {fileID: -2291352972896450104}
-  EditorParameters: []
+  EditorParameters:
+  - {fileID: 8340114932722594093}
   MasterBanks:
   - {fileID: 4074877067685980125}
   StringsBanks:
   - {fileID: 7828043585042293703}
-  cacheTime: 638797061282544689
+  cacheTime: 638798863816580314
   cacheVersion: 131618
 --- !u!114 &27231602060753349
 MonoBehaviour:
@@ -253,7 +254,7 @@ MonoBehaviour:
   Path: Sound Final Assignment/Build/Desktop/Dialogue.bank
   Name: Dialogue
   StudioPath: bank:/Dialogue
-  lastModified: 638797061281626259
+  lastModified: 638798816505668844
   FileSizes:
   - Name: Desktop
     Value: 85760
@@ -311,7 +312,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 4000
+  Length: 2250
 --- !u!114 &1398779502123388748
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -390,9 +391,9 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 1
   Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 2000
+  MinDistance: 0.7
+  MaxDistance: 10
+  Length: 280
 --- !u!114 &4074877067685980125
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -408,10 +409,10 @@ MonoBehaviour:
   Path: Sound Final Assignment/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638797061235128916
+  lastModified: 638798863815807194
   FileSizes:
   - Name: Desktop
-    Value: 1036
+    Value: 1230
   Exists: 1
 --- !u!114 &4979644095818597315
 MonoBehaviour:
@@ -439,7 +440,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 2046
+  Length: 1760
 --- !u!114 &6081119351922549481
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -482,13 +483,13 @@ MonoBehaviour:
   Name: Puzzles Completed
   StudioPath: 
   Min: 0
-  Max: 3
+  Max: 4
   Default: 0
   ID:
     data1: 800492195
     data2: 1256052758
   Type: 0
-  IsGlobal: 0
+  IsGlobal: 1
   Labels: []
   Exists: 1
 --- !u!114 &6597480170373024220
@@ -561,10 +562,10 @@ MonoBehaviour:
   Path: Sound Final Assignment/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 638797061274728389
+  lastModified: 638798863816580314
   FileSizes:
   - Name: Desktop
-    Value: 14202848
+    Value: 14203136
   Exists: 1
 --- !u!114 &7828043585042293703
 MonoBehaviour:
@@ -581,10 +582,34 @@ MonoBehaviour:
   Path: Sound Final Assignment/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638797061235148864
+  lastModified: 638798863815817145
   FileSizes:
   - Name: Desktop
     Value: 1696
+  Exists: 1
+--- !u!114 &8340114932722594093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Puzzles Completed
+  m_EditorClassIdentifier: 
+  Name: Puzzles Completed
+  StudioPath: parameter:/Puzzles Completed
+  Min: 0
+  Max: 4
+  Default: 0
+  ID:
+    data1: 800492195
+    data2: 1256052758
+  Type: 0
+  IsGlobal: 1
+  Labels: []
   Exists: 1
 --- !u!114 &8518825900791493676
 MonoBehaviour:

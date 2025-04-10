@@ -130,6 +130,7 @@ public class ConnectWires : MonoBehaviour
         WireConnections wireConnection = newWire.GetComponent<WireConnections>();
         wireConnection.SetValue(dot1, dot2);
         wires.Add(newWire);
+        FMODUnity.RuntimeManager.PlayOneShot("event:/Weld Zap");
     }
 
     void ButtonType(GameObject button, bool positive)
@@ -139,6 +140,7 @@ public class ConnectWires : MonoBehaviour
         {
             if (positive && positiveButtons < maxPos)
             {
+                FMODUnity.RuntimeManager.PlayOneShot("event:/Probe Positive");
                 dot.SetPositive();
                 positiveButtons++;
                 if (canProbe)
@@ -148,6 +150,7 @@ public class ConnectWires : MonoBehaviour
 
             }else if(!positive && negativeButtons < maxNeg)
             {
+                FMODUnity.RuntimeManager.PlayOneShot("event:/Probe Negative");
                 dot.SetNegative();
                 negativeButtons++;
             }
@@ -171,6 +174,7 @@ public class ConnectWires : MonoBehaviour
             wireConnection.dot2.DisconnectDots(wireConnection.dot1);
             wires.Remove(wire);
         Destroy(wire);
+        FMODUnity.RuntimeManager.PlayOneShot("event:/Saw Whirr");
     }
 
     public void EnableWelding()

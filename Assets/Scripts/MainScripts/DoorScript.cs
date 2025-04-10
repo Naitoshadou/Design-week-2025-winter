@@ -37,10 +37,18 @@ public class DoorScript : MonoBehaviour
             }
             else if (PlayerData.Instance.ToolStates[RequiredTool] == true)
             {
+                if (RequiredTool == 1)
+                {
+                    FMODUnity.RuntimeManager.PlayOneShot("event:/Saw Whirr");
+                } else if (RequiredTool == 2)
+                {
+                    FMODUnity.RuntimeManager.PlayOneShot("event:/Weld Zap");
+                }
                 UnlockDoor();
             }
             else
             {
+                FMODUnity.RuntimeManager.PlayOneShot("event:/Can't Open Dialogue");
                 //Debug.Log("I can't Seem to open it yet...");
                 SubtitleManager.instance.DoDialogue("I can't seem to open it yet...");
             }

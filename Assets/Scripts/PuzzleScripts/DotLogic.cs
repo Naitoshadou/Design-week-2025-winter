@@ -52,6 +52,7 @@ public class DotLogic : MonoBehaviour
     {
         if (clickToIncrement && !ConnectWires.probingActive)
         {
+            FMODUnity.RuntimeManager.PlayOneShot("event:/Button Click",this.transform.position);
             AudioManager.instance.PlaySound("buttonDown", 1, 0.1f, 0.075f, 1f);
 
             List<DotLogic> foundConnected = new List<DotLogic>();

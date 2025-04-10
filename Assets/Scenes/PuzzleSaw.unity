@@ -3292,6 +3292,7 @@ GameObject:
   - component: {fileID: 1592029128}
   - component: {fileID: 1592029127}
   - component: {fileID: 1592029126}
+  - component: {fileID: 1592029129}
   m_Layer: 0
   m_Name: BackgroundCam
   m_TagString: MainCamera
@@ -3419,6 +3420,19 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &1592029129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1592029124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attenuationObject: {fileID: 0}
 --- !u!1 &1596921748
 GameObject:
   m_ObjectHideFlags: 0

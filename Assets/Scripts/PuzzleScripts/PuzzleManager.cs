@@ -40,10 +40,10 @@ public class PuzzleManager : MonoBehaviour
 
             if (PlayerData.Instance != null)
             {
-
-
+                FMODUnity.RuntimeManager.StudioSystem.setParameterByName("Puzzles Completed", puzzleIndex + 1.0f);
                 if (puzzleIndex == 3)
                 {
+                    FMODUnity.RuntimeManager.PlayOneShot("event:/Outdoors Ambience");
                     AdditiveSceneManager.Instance.UnloadSceneAndNothingElse();
 
                     FInalRobotScript.GoToFinalScene();
